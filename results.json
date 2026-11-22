@@ -1,0 +1,93 @@
+{
+ "n": 15000,
+ "share_class1": 0.1198,
+ "mean_energy": 422.80925442312196,
+ "std_energy": 116.55947125292204,
+ "n_train": 12000,
+ "n_test": 3000,
+ "share_train": 0.11983333333333333,
+ "share_test": 0.11966666666666667,
+ "cls_best_depth": 5,
+ "cls_best_name": "Логістична регресія",
+ "reg_best_name": "Стекінг",
+ "noise_floor": 15.0,
+ "depth_best_cv": 10,
+ "depth_best_test": 11,
+ "depth_cv_rmse_at_best": 34.9824322347314,
+ "leaf_best_cv": 8,
+ "leaf_cv_rmse_at_best": 32.96191064045106,
+ "grid_min_rmse": 32.64063088962363,
+ "grid_best": {
+  "leaf": 5,
+  "depth": "12"
+ },
+ "grid_worst_gap": 35.635548273269094,
+ "tree_cv_best_params": {
+  "max_depth": 16,
+  "min_samples_leaf": 10
+ },
+ "tree_cv_best_rmse": 32.948520967840224,
+ "tree_tuned": {
+  "rmse_tr": 22.23412803562914,
+  "rmse_te": 32.955112926605196,
+  "r2_tr": 0.963286411479108,
+  "r2_te": 0.9227334324266202,
+  "leaves": 936,
+  "depth_real": 16
+ },
+ "tree_full": {
+  "rmse_tr": 0.0,
+  "rmse_te": 35.635548273269094,
+  "r2_tr": 1.0,
+  "r2_te": 0.9096531736125708,
+  "leaves": 12000,
+  "depth_real": 26
+ },
+ "forest_rmse": [
+  34.577464613849784,
+  26.33953414706674,
+  25.17069652999108,
+  24.25482102155514,
+  23.925284807169188,
+  23.701044380816036,
+  23.62312778557665,
+  23.550377579093563
+ ],
+ "rf_best_params": {
+  "max_depth": null,
+  "min_samples_leaf": 1,
+  "n_estimators": 300
+ },
+ "rf_cv_rmse": 23.66959409437285,
+ "rf_test_rmse": 22.323470875175357,
+ "rf_test_r2": 0.9645456562027299,
+ "rfc_best_params": {
+  "max_depth": null,
+  "min_samples_leaf": 20,
+  "n_estimators": 300
+ },
+ "rfc_cv_auc": 0.8025818136935458,
+ "rfc_test_auc": 0.801985826673656,
+ "rfc_test_f1": 0.15571776155717762,
+ "new_cls": [
+  0.404,
+  0.017
+ ],
+ "new_reg": [
+  448.3,
+  549.2
+ ],
+ "forest_sizes": [
+  1,
+  5,
+  10,
+  25,
+  50,
+  100,
+  200,
+  400
+ ],
+ "stage_rmse_min": 16.699576483335463,
+ "stage_rmse_argmin": 300,
+ "stage_rmse_last": 16.699576483335463
+}
